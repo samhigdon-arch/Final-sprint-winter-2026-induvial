@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlantic Fitness Co.</title>
+     <link rel="stylesheet" href="styles.css">
+     <a href="Index.html"><img src="Images/Logo.jpg" width="200px" height="200px"></a>
+</head>
+
+<body>
+
+    <header>
+        <h1>Events - Atlantic Fitness Co.</h1>
+    </header>
+    <nav>
+        <hr />
+       <a href="Index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Merch.html">Merchandise</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="About.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Events.html">Events</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Membership.html">Membership</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Testimonials.html">Testimonials</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Smoothie.html">Smoothies</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Order.html" class="cart-button">View Cart (<span id="cartCount">0</span>)</a>
+        <hr />
+    </nav>
+
+    <main>
+        <h1>Upcoming Events at Atlantic Fitness Co.</h1>
+
+        <div class="card">
+            <h3>Yoga Workshop</h3>
+            <p>Join us for a relaxing yoga workshop led by certified instructors. All levels welcome!</p>
+            <p>Date: July 15, 2024</p>
+            <p>Time: 10:00 AM - 12:00 PM</p>
+            <p>$15.00</p>
+            <button onclick="addToCart(this)">Register</button>
+            <p id="eventMessage"></p>
+        </div>
+
+        <div class="card">
+            <h3>Nutrition Seminar</h3>
+            <p>Learn about healthy eating habits and meal planning with our nutrition experts.</p>
+            <p>Date: August 5, 2024</p>
+            <p>Time: 6:00 PM - 8:00 PM</p>
+            <p>$12.00</p>
+            <button onclick="addToCart(this)">Register</button>
+            <p id="eventMessage"></p>
+        </div>
+
+        <div class="card">
+            <h3>5K Fun Run</h3>
+            <p>Participate in our annual 5K fun run to support local charities. All ages welcome!</p>
+            <p>Date: September 20, 2024</p>
+            <p>Time: 9:00 AM - 11:00 AM</p>
+            <p>$8.00</p>
+            <button onclick="addToCart(this)">Register</button>
+            <p id="eventMessage"></p>
+        </div>
+
+        <div class="card">
+            <h3>Strength Training Bootcamp</h3>
+            <p>Get stronger with our intensive bootcamp sessions focused on strength training.</p>
+            <p>Date: October 10, 2024</p>
+            <p>Time: 5:00 PM - 7:00 PM</p>
+            <p>$20.00</p>
+            <button onclick="addToCart(this)">Register</button>
+            <p id="eventMessage"></p>
+        </div>
+
+        <div class="card">
+            <h3>Holiday Fitness Challenge</h3>
+            <p>Stay active during the holidays with our fun fitness challenge. Prizes for top performers!</p>
+            <p>Date: December 1, 2024 - January 1, 2025</p>
+            <p>$18.00</p>
+            <button onclick="addToCart(this)">Register</button>
+            <p id="eventMessage"></p>
+        </div>
+
+        <div class="card">
+            <h3>New Year's Resolution Kickoff</h3>
+            <p>Start the new year strong with our kickoff event featuring fitness assessments and goal setting.</p>
+            <p>Date: January 5, 2025</p>
+            <p>Time: 10:00 AM - 12:00 PM</p>
+            <p>$22.00</p>
+            <button onclick="addToCart(this)">Register</button>
+            <p id="eventMessage"></p>
+        </div>
+    </main>
+
+    <footer>
+        <hr />
+        <p>&copy; 2026  Atlantic Fitness Co. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

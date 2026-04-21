@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal - Atlantic Fitness Co.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Portal</h1>
+    </header>
+    <nav>
+        <hr />
+        <a href="Index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Merch.html">Merchandise</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="About.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Events.html">Events</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Membership.html">Membership</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Testimonials.html">Testimonials</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Smoothie.html">Smoothies</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Order.html" class="cart-button">View Cart (<span id="cartCount">0</span>)</a>
+        <hr />
+    </nav>
+
+    <main>
+        <section id="adminLoginSection">
+            <h2>Admin Login</h2>
+            <input type="password" id="adminPassword" placeholder="Admin password">
+            <button onclick="checkAdminPassword()">Enter</button>
+            <p id="adminMessage"></p>
+        </section>
+
+        <section id="adminOrdersSection" style="display:none">
+            <h2>Customer Orders</h2>
+            <ul id="adminOrderList"></ul>
+            <button onclick="logoutAdmin()">Logout</button>
+        </section>
+    </main>
+
+    <footer>
+        <hr />
+        <p>&copy; 2026 Atlantic Fitness Co. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

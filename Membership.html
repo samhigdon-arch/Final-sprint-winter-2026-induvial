@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlantic Fitness Co.</title>
+     <link rel="stylesheet" href="styles.css">
+     <a href="Index.html"><img src="Images/Logo.jpg" width="200px" height="200px"></a>
+</head>
+
+<body>
+
+    <header>
+        <h1>Membership - Atlantic Fitness Co.</h1>
+    </header>
+    <nav>
+        <hr />
+       <a href="Index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Merch.html">Merchandise</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="About.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Events.html">Events</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Membership.html">Membership</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Testimonials.html">Testimonials</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Smoothie.html">Smoothies</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Order.html" class="cart-button">View Cart (<span id="cartCount">0</span>)</a>
+        <hr />
+    </nav>
+
+    <main>
+        <section>
+            <h2>Join Atlantic Fitness Co. Today!</h2>
+            <p>Choose the membership plan that fits your lifestyle and start your fitness journey with us.</p>
+
+            <button onclick="selectPlan('Basic')">Basic Membership</button>
+            <button onclick="selectPlan('Pro')">Pro Membership</button>
+
+            <p id="planMessage"></p>
+        </section>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlantic Fitness Co.</title>
+     <link rel="stylesheet" href="styles.css">
+     <a href="Index.html"><img src="Images/Logo.jpg" width="200px" height="200px"></a>
+</head>
+
+<body>
+
+    <header>
+        <h1>Smoothies - Atlantic Fitness Co.</h1>
+    </header>
+    <nav>
+        <hr />
+     <a href="Index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Merch.html">Merchandise</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="About.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Events.html">Events</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Membership.html">Membership</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Testimonials.html">Testimonials</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Smoothie.html">Smoothies</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Order.html" class="cart-button">View Cart (<span id="cartCount">0</span>)</a>
+        <hr />
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Our Smoothie Menu</h2>
+
+            <div class="card">
+                <h3>Green Power</h3>
+                <img src="./Images/Smoothie Images/Green-Power.jpg" width="150px" height="150px">
+                <p>Spinach, kale, banana, almond milk, and protein powder.</p>
+                <div class="product-options">
+                    <label>Size
+                        <select class="item-size">
+                            <option>Small</option>
+                            <option selected>Medium</option>
+                            <option>Large</option>
+                        </select>
+                    </label>
+                </div>
+                <p>$7.00</p>
+                <button onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <h3>Berry Blast</h3>
+                <img src="./Images/Smoothie Images/Berry-Blast.jpg" width="150px" height="150px">
+                <p>Strawberries, blueberries, raspberries, Greek yogurt, and honey.</p>
+                <div class="product-options">
+                    <label>Size
+                        <select class="item-size">
+                            <option>Small</option>
+                            <option selected>Medium</option>
+                            <option>Large</option>
+                        </select>
+                    </label>
+                </div>
+                <p>$7.00</p>
+                <button onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <h3>Tropical Energy</h3>
+                <img src="./Images/Smoothie Images/Tropical-Energy.jpg" width="150px" height="150px">
+                <p>Mango, pineapple, coconut water, and chia seeds.</p>
+                <div class="product-options">
+                    <label>Size
+                        <select class="item-size">
+                            <option>Small</option>
+                            <option selected>Medium</option>
+                            <option>Large</option>
+                        </select>
+                    </label>
+                </div>
+                <p>$7.00</p>
+                <button onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <h3>Chocolate Muscle</h3>
+                <img src="./Images/Smoothie Images/Chocolate-Muscle.jpg" width="150px" height="150px">
+                <p>Cocoa powder, banana, peanut butter, almond milk, and protein powder.</p>
+                <div class="product-options">
+                    <label>Size
+                        <select class="item-size">
+                            <option>Small</option>
+                            <option selected>Medium</option>
+                            <option>Large</option>
+                        </select>
+                    </label>
+                </div>
+                <p>$7.00</p>
+                <button onclick="addToCart(this)">Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <h3>Peachy Keen</h3>
+                <img src="./Images/Smoothie Images/Peachy-Keen.jpg" width="150px" height="150px">
+                <p>Peaches, Greek yogurt, honey, and a splash of orange juice.</p>
+                <div class="product-options">
+                    <label>Size
+                        <select class="item-size">
+                            <option>Small</option>
+                            <option selected>Medium</option>
+                            <option>Large</option>
+                        </select>
+                    </label>
+                </div>
+                <p>$7.00</p>
+                <button onclick="addToCart(this)">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlantic Fitness Co.</title>
+     <link rel="stylesheet" href="styles.css">
+     <a href="Index.html"><img src="Images/Logo.jpg" width="200px" height="200px"></a>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact - Atlantic Fitness Co.</h1>
+    </header>
+    <nav>
+        <hr />
+     <a href="Index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Merch.html">Merchandise</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="About.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Events.html">Events</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Membership.html">Membership</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Testimonials.html">Testimonials</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Smoothie.html">Smoothies</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="Order.html" class="cart-button">View Cart (<span id="cartCount">0</span>)</a>
+        <hr />
+    </nav>
+
+    <main>
+        <section>
+  <h2>Your Order</h2>
+  <ul id="orderList"></ul>
+  <h3>Total: $<span id="orderTotal">0</span></h3>
+
+  <h2>Customer Info</h2>
+  <div class="order-field">
+    <input type="text" id="name" placeholder="Your Name">
+    <label for="deliveryMethod">Delivery option:</label>
+    <select id="deliveryMethod">
+      <option value="Home Delivery">Home Delivery</option>
+      <option value="Store Pickup">Store Pickup</option>
+    </select>
+    <input type="text" id="address" placeholder="Address">
+    <textarea id="specialInstructions" placeholder="Special instructions or notes"></textarea>
+  </div>
+
+  <button onclick="placeOrder()">Place Order</button>
+
+  <p id="orderMessage"></p>
+  </section>
+</main>
+
+<footer>
+    <hr />
+    <p>&copy; 2026 Atlantic Fitness Co. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
